@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>form</title>
+    <style>
+        fieldset {
+            height: 1000px;
+        }
+
+        legend {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px;
+        }
+        .info{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(80, 142, 173);">
+    <!-- here is form -->
+    <form action="formend.html">
+        <!-- fieldset -->
+        <fieldset>
+            <!--legend -->
+            <legend>Enjoy programming :- Personal details</legend>
+            <br/>
+            <br/>
+            <!-- here is preffered timing  -->
+            <label for="preffered timing" class="info">Preffered Timing:- </label>
+            <input type="time"> to <input type="time">
+            <br />
+            <br />
+            <!-- here is preffered batch time -->
+            <label for="preffered batch date" class="info">Preffered batch date:-</label>
+            <input type="datetime-local"> to <input type="datetime-local">
+            <br />
+            <br />
+            <!-- here is date of birth -->
+            <label for="date of birth" class="info">Date of Birth:-</label>
+            <input type="datetime">
+            <br />
+            <br />
+            <!-- here is email -->
+            <label for="Email" class="info">Email :-</label>
+            <input for="email" placeholder="email">
+            <br />
+            <br />
+            <!-- here is contact -->
+            <label for="Contact" class="info">Contact:-</label>
+            <input type="tel">
+            <br />
+            <br />
+            <!-- here is communication skills -->
+            <label for="Communication skill" class="info">Communication skills (out of 10):-</label>
+            <input type="range">
+            <br />
+            <br />
+            <label for="age" class="info">Age:-</label>
+            <input type="Age">
+            <br />
+            <br />
+            <label for="Tell me about urself" class="info">Tell me about urself</label>
+            <textarea></textarea>
+            <br />
+            <br />
+            <label for="Pick a batch" class="info">Pick a batch</label>
+            <select>
+                <optgroup label="Senior">
+                    <option> Proficient Batch</option>
+                    <option>Ambitious Batch</option>
+                </optgroup>
+                <optgroup label="junior">
+                    <option>Scholar Batch</option>
+                    <option>Visionary Batch</option>
+                </optgroup>
+            </select>
+            <br/>
+            <br/>
+            <button type="submit"> SUBMIT</button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

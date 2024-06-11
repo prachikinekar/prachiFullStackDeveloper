@@ -1,0 +1,35 @@
+.image {
+
+    border-radius: 20%;
+    height: 350px;
+    width: 250px;
+    margin-left: 570px;
+    margin-top: 60px;
+
+}
+
+.info {
+    text-align: center;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 35px;
+}
+
+.a {
+    text-align:left;
+font-size:50px; 
+color: rgb(119, 24, 114);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bio{
+    text-align: left;
+    font-size: 35PX;
+    color:rgb(119, 24, 114) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(234, 65, 149);
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>video</title>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border-style: solid;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 30px;
+            border-color: black;
+            height: 50px;
+            width: 1450px;
+
+        }
+
+        .side {
+            height: 700px;
+            width: 700px;
+        }
+
+        .head {
+            background-color: rgb(70, 197, 70);
+            height:50% ;
+         
+        
+        }
+        .head-one{
+            background-color: rgb(70, 197, 70);
+           width: 2000px;
+        }
+
+        .page {
+            background-color: darkolivegreen;
+        }
+
+        .right {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body style="margin: 0px;">
+    <table>
+        <tr>
+            <th class="head">About</th>
+            <th class="head">Skill</th>
+            <th class="head">Personal details</th>
+            <th class="head">Academic</th>
+            <th class="head-one">Vision</th>
+        </tr>
+        <!-- right_first box -->
+        <tr>
+            <td colspan="4" rowspan="3" class="side">
+                <video src="./video/earth.mp4" controls height="700px"></video>
+            </td>
+
+        </tr>
+        <!-- right side 2nd box -->
+        <tr>
+            <td class="right"><video src="./video/video2.mp4"controls height="100px"></video></td>
+        </tr>
+        <!-- right side -->
+        <tr>
+            <td class="right"><video src="./video/3755381-uhd_4096_2160_25fps.mp4" controls height="100px"></video></td>
+         </tr>
+<!-- bottom row -->
+        <tr class="page">
+            <td>Follow Us:</td>
+            <td> Facebook</td>
+            <td>Linkedin</td>
+            <td colspan="2" class="info">Twitter</td>
+        </tr>
+    </table>
+</body>
+
+</html>

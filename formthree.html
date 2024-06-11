@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>FORM</title>
+    <style>
+        form {
+            background-color:rgb(58, 166, 185);
+        }
+
+        fieldset {
+            height: 800PX;
+            width: 1350PX;
+        }
+
+        .h1 {
+            font-size: 35px;
+
+        }
+
+        .name {
+            font-size: 20px;
+            text-align: left;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .input {
+            height: 30px;
+            width: 250px;
+            font-size: 15PX;
+        }
+
+        .info {
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+
+        .i1 {
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .button {
+            height: 40px;
+            width: 70px;
+            color: brown;
+
+        }
+
+        .h2 {
+            font-size: 35px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="formsix.html">
+    <fieldset>
+
+        <h1 class="h2">Enjoy Programming</h1>
+        <br />
+        <br />
+        <!-- first name -->
+        <label for="first name" class="name">FIRST NAME:-</label>
+        <input type="name" class="input">
+        <br />
+        <br />
+        <!-- last name -->
+        <label for="Last name" class="name">LAST NAME:-</label>
+        <input type="name" class="input">
+        <br>
+        <br>
+        <!-- Which Laptop do  you own -->
+        <h3 class="h1"> Which Laptop do you own</h3>
+        <input type="checkbox"><label for="Windows" class="info">Windows</label>
+        <br />
+        <input type="checkbox"><label for="Linux" class="info">Linux</label>
+        <br />
+        <input type="checkbox"><label for="Mac" class="info">Mac</label>
+        <!-- select your education -->
+        <h2 class="h1"> Select Your Education </h2>
+        <input type="radio"    id="education"  name="education"/>
+        <label for="education" class="info">Schooling</label>
+        <br>
+        <input type="radio"  id="education"  name="education" />
+        <label for="education" class="info">Jr.College</label>
+        <br>
+        <input type="radio"   id="education"  name="education" />
+        <label for="education" class="info">Graduation</label>
+        <br>
+        <input type="radio"   id="education"  name="education" />
+        <label for="education" class="info">Post Graduation</label>
+        <br>
+        <input type="radio"   id="education"  name="education"/>
+        <label for="education" class="info">PHD</label>
+        <br>
+        <br>
+        <!-- button -->
+        <button type="NEXT" class="button">NEXT</button>
+    </fieldset>
+</form>
+</body>
+
+</html>

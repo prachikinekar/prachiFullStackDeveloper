@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>marksheet</title>
+    <style>
+        table,
+        td,
+        th,
+        tr {
+            text-align: center;
+            border-style: solid;
+            border-collapse: collapse;
+            height: 60px;
+            width: 800px;
+        }
+
+        .heading {
+            font-size: 25px;
+        }
+        .name{
+            color: blueviolet;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            background-color:pink;
+            border-color: black;
+        }
+        .sub{
+            color: rgb(113, 27, 113);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            background-color:rgb(246, 144, 144);
+            border-color: black;
+        }
+        .parts
+        {
+            color:purple;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            background-color:plum;
+            border-color: black;
+        } 
+        
+    </style>
+</head>
+
+<body>
+    <table>
+        <!-- first row -->
+        <tr class="heading">
+            <th style="color: crimson;">NAME</th>
+            <th style="color: crimson;">SUBJECTS</th>
+            <th style="color: crimson;">PARTS</th>
+        </tr>
+        <!-- second row -->
+        <tr>
+            <td rowspan ="4" class="name">SHIVA</td>
+            <td rowspan="2" class="sub">Maths</td>
+            <td class="parts">A</td>
+            
+        </tr>
+        <!-- third row -->
+        <tr>
+            
+        <td class="parts">B</td>
+        </tr>
+        <!-- fourth row -->
+        <tr>
+    
+            <td rowspan="2" class="sub">Science</td>
+            <td class="parts">A</td>
+        </tr>
+        <!-- fifth row -->
+        <tr>
+           
+            <td class="parts" >B</td>
+        </tr>
+        <!-- sixth row -->
+        <tr>
+            <td rowspan="4" class="name">PARTH</td>
+            <td rowspan="2" class="sub">Maths</td>
+            <td class="parts">A</td>
+
+        </tr>
+        <!-- seventh row -->
+        <tr>
+
+            <td class="parts">B</td>
+        </tr>
+        <!-- eight row -->
+        <tr>
+        
+            <td rowspan="2" class="sub">Science</td>
+            <td class="parts">A</td>
+        </tr>
+        <!-- ninthrow -->
+        <tr>
+            <td class="parts">B</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>

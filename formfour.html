@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form</title>
+    <style>
+        .heading{
+            text-align: center;
+            font-family:Arial, Helvetica, sans-serif ;
+        }
+        fieldset {
+            height: 800PX;
+            width: 1350PX;
+        }
+        .info{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(5, 4, 4);
+            font-size: 35px;
+        }
+        .input{
+            height: 20px;
+            width: 350px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+        }
+        .gender{
+            font-size: 25px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .button{
+            height: 50px;
+            width: 60px;
+            color: crimson;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+
+<body style="background-image: url(https://images.unsplash.com/photo-1625225230517-7426c1be750c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZvcm18ZW58MHx8MHx8fDA%3D); background-position: right top;">
+    <fieldset>
+    <form>
+        <h1 class="heading">REGISTRATION FORM</h1>
+        <!-- first name -->
+        <label for="First Name" class="info">First Name:-</label>
+        <br/>
+        <input type="name" class="input">
+        <br/>
+        <!-- last name -->
+        <label for="Last Name" class="info">Last Name:-</label>
+        <br/>
+        <!-- name -->
+        <input type="name" class="input">
+        <br/>
+        <!-- email -->
+        <label for="Email" class="info">Email:-</label>
+        <br/>
+        <input type="email" placeholder="xyz@email.com" class="input">
+        <br/>
+        <!-- contact -->
+        <label for="contact" class="info">Contact:-</label>
+        <br/>
+        <input type="tel"  class="input">
+        <br>
+        <!-- gender -->
+        <label for="gender" class="info">Gender:-</label>
+        <br/>
+        <input type="radio" id="gender" name="gender">
+        <label for="male" class="gender">Male</label>
+        <br/>
+        <input type="radio" id="gender" name="gender">
+        <label for="Female" class="gender">Female</label>
+       
+        <br/>
+        <!-- password -->
+        <label for="password" class="info">Password:-</label>
+        <br/>
+        <input type="password" class="input">
+        <br/>
+        <!-- retype password -->
+        <label for=" Retype password" class="info"> Retype Password:-</label>
+        <br/>
+        <input type="password" class="input">
+        <br/>
+        <br/>
+        <!-- submit -->
+        <button type="submit" class="button">SUBMIT</button>
+        
+
+    </form>
+        
+
+    </fieldset>
+  
+</body>
+
+</html>
